@@ -1,0 +1,456 @@
+
+/* Mobile first default styles */
+/* Extra small devices (phones, less than 768px) */
+
+p, body {
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+
+}
+h2, h3 {
+  font-family: 'Tinos', serif;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-family: 'Nobile', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+blockquote {
+    font-family: 'Tinos';
+    border: none;
+    font-size: 1.50rem;
+    line-height: 1.80rem;
+/*    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+*/  }
+
+.caption {
+  font: .8rem Arial,Helvetica,sans-serif;
+  display: block;
+  width: 100%;
+  color: #666;
+}
+
+.caption.artwall {
+  float: none;
+  width: 88%;
+  margin: 16px auto 20px;
+  max-width: 620px;
+}
+.caption.art {
+  float: none;
+  width: 88%;
+  margin: 14px auto 20px;
+  max-width: 620px;
+}
+
+.quote {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.dropcap {
+  color: #000000;
+  float: left;
+  font: 3.6rem/2.3rem Georgia,serif;  padding-right: 6px;
+  padding-top: 10px;
+}
+
+.body-text {
+  width: 88%;
+  margin: 0 auto 25px;
+  overflow: visible;
+  max-width: 620px;
+}
+
+.photo {
+  margin-bottom: 20px;
+}
+
+.inline-asset {
+  margin 0;
+}
+.inline-asset.wide {
+  width: 114%;
+  margin-left: -7%;
+}
+
+.inline-asset.wide.gallery {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.inline-asset.chart {
+  width: 100%;
+  margin: 15px 0 0 0;
+  height: auto;
+
+}
+
+.inline-asset.narrow {
+  width: 100%;
+}
+.inline-asset.tiny {
+  width: 100%;
+}
+.inline-asset.quote {
+  width: 100%;
+  margin: 25px 0 25px 0;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 18px 0 20px 0;
+}
+.inline-asset img {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+.inline-asset .caption {
+  margin: 14px 7% 20px;
+  width: 88%;
+}
+.media {
+  position: relative;
+  margin: 40px 0 50px 0;
+  width: 100%;
+}
+.media.float {
+  width: 99.5%;
+  margin: 0 auto;
+  display: inline-block;
+}
+.media:before {
+  content: "";
+  display: block; 
+}
+.media.ratio16_9:before{
+  padding-top: 56.25%;
+}
+.media.ratio4_3:before{
+  padding-top: 75%;
+}
+.media.ratio3_1:before{
+  padding-top: 25%;
+}
+.media.ratio2_1:before{
+  padding-top: 50%;
+}
+.media.ratio12_8:before{
+  padding-top: 42%;
+}
+.media-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+.media-content.bg  {
+  background-size: contain !important;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.artwall {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+.artwall .bg {
+  background-position: center center;
+  background-repeat: no-repeat;  
+  background-size: cover !important;
+  position: relative;
+  float: left;
+}
+.artwall .img1 {
+  width: 67%;
+  height: 100%;
+  margin-right: 5px;
+  padding-bottom: 5px;
+  background-size: 100%;
+}
+.artwall .img2 {
+  width: 33%;
+  height: 49.5%;
+  margin-right: -5px;
+  margin-bottom: 5px;
+  background-size: 100%;
+}
+.artwall .img3 {
+  width: 33%;
+  margin-right: -5px;
+  height: 49.5%;
+  margin-bottom: 0;
+  background-size: 100%;
+}
+
+.artwall.s1 .img1 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-01-440.jpg") no-repeat center center; }
+.artwall.s1 .img2 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-200.jpg") no-repeat center center; }
+.artwall.s1 .img3 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-200.jpg") no-repeat center center; }
+
+/* Extra small devices landscape (321px and up) ----------- */
+@media (min-width: 321px) {
+
+  .artwall.s1 .img1 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-01-680.jpg") no-repeat center center; }
+  .artwall.s1 .img2 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-320.jpg") no-repeat center center; }
+  .artwall.s1 .img3 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-320.jpg") no-repeat center center; }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+blockquote {
+  border-left: 1px solid #dddddd;
+  border-top: none;
+  border-bottom:none;
+}
+
+.caption {
+  font: .8rem Arial,Helvetica,sans-serif;
+  display: block;
+  width: 100%;
+  color: #666;
+}
+
+.caption.art {
+  float: none;
+  width: 80%;
+  margin: 14px auto 30px;
+}
+.quote {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+}
+.dropcap {
+  color: #000000;
+  float: left;
+/*  font: 136px/100px Georgia,Palatino,"Book Antiqua","Times New Roman",serif; */
+  font: 5.9rem/4.4rem Georgia,serif;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+.inline-asset {
+    clear: right;
+    float: right;
+    margin: 10px 0px 20px 30px;
+}
+.inline-asset.wide {
+    width: 340px;
+    margin-left: 30px;
+}
+.inline-asset.wide.gallery {
+  width: 340px;
+/*  margin: 10px -50px 20px 30px; */
+  margin-left: 30px;
+}
+.inline-asset.wide.map {
+    width: 100%;
+    margin: 15px 0 0 0;
+    height: auto;
+}  
+.inline-asset.narrow {
+    width: 340px;
+}
+.inline-asset.tiny {
+    width: 250px;
+    margin-right: 180px;
+}
+.inline-asset .caption {
+    margin: 10px 0 20px;
+    width: 100%;
+}   
+.inline-asset.wide.map .caption {
+    margin: 10px 0 20px;
+    width: 100%;
+} 
+.inline-asset.quote {
+    width: 340px;
+    clear: right;
+    float: right;
+    margin: 20px 0 20px 30px;
+    border-top: none;
+    border-bottom: none;
+    padding: 0;      
+}
+.body-text {
+  width: 80%;
+  margin: 0 auto 35px;
+
+  /* placing webkit adjusts last to prevent old IE breaks */
+  @media screen and (-webkit-min-device-pixel-ratio:0)
+  {
+    .quote {
+      line-height: 37px;
+    }
+  }
+
+
+  .artwall .img1 {
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  .artwall .img2 {
+    margin-right: -10px;
+    margin-bottom: 10px;
+  }
+  .artwall .img3 {
+    margin-right: -10px;
+  }  
+
+  .media.float {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  .caption.artwall {
+    float: right;
+    width: 166px;
+    margin: 2px 10% 30px 40px;
+  }
+
+
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  blockquote {
+    border-left: 1px solid #dddddd;
+    border-top: none;
+    border-bottom:none;
+  }
+
+  .caption.artwall {
+    width: 226px;
+    margin-right: 10%;
+  }
+
+  .caption.art {
+    width: 620px;
+    margin: 2 auto 30px;
+    padding-right: 10%;
+  }
+
+  .inline-asset.quote {
+    width: 440px;
+    margin: 20px -100px 30px 40px;
+  }
+  .inline-asset.wide {
+    width: 440px;
+    margin: 10px -100px 20px 30px;
+    margin-left: 30px;
+  }
+  .inline-asset.wide.gallery {
+    width: 440px;
+    margin: 10px -100px 20px 30px;
+    margin-left: 30px;
+  }
+  .inline-asset.wide.chart {
+    width: 440px;
+    margin: 20px -100px 20px 40px;
+  }
+
+  .body-text {
+    width: 620px;
+    padding-right: 10%;
+  }
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  blockquote {
+    border-left: 1px solid #dddddd;
+    border-top: none;
+    border-bottom:none;
+  }
+
+  .caption.artwall {
+    float: left;
+    width: 200px;
+    margin-right: 0%;
+  }
+  .caption.art {
+    float: left;
+    width: 200px;
+    margin: 20px 0 30px 40px;
+    padding-right: 0;
+  }
+  .caption.artwall {
+    padding-right: 0;
+  }
+  .body-text {
+    width: 620px;
+    padding-right: 0%;
+  }
+
+  .artwall.s1 .img1 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-01-1000.jpg") no-repeat center center; }
+  .artwall.s1 .img2 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-460.jpg") no-repeat center center; }
+  .artwall.s1 .img3 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-460.jpg") no-repeat center center; }
+ 
+}
+
+/* Extra large devices (extra large desktops, 1800px and up) */
+@media (min-width: 1800px) {
+
+blockquote {
+  border-left: 1px solid #dddddd;
+}
+
+  .caption.art {
+    width: 250px;
+    margin-left: 5%;
+    margin-top: 25px;
+  }  
+  .caption.artwall {
+    width: 250px;
+    margin-left: 5%;
+  }
+  .body-text {
+    width: 620px;
+  }
+  .media.float {
+    width: 90%;
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .artwall.s1 .img1 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-01-1200.jpg") no-repeat center center; }
+  .artwall.s1 .img2 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-580.jpg") no-repeat center center; }
+  .artwall.s1 .img3 { background: url("http://localhost/aas_local/projects/news/immersive-template/images/artwall-02-580.jpg") no-repeat center center; }
+
+
+}

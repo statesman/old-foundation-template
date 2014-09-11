@@ -1,0 +1,35 @@
+<style type="text/css">
+	.dcnote {
+		background-color: #D3D3D3;
+		text-decoration: underline;
+	}
+	#dc01, #dc02 {
+		display: none;
+	}
+</style>
+
+
+<!-- in body -->
+	<p>Etiam molestie, nisi sit amet varius rutrum, lacus est viverra nisl, at molestie mi leo nec odio. <span id="dct02" class="dcnote">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span></p>
+	<div id="dc02">
+		<div id="DC-note-174667" class="DC-note-container"></div><script src="//s3.amazonaws.com/s3.documentcloud.org/notes/loader.js"></script><script>  dc.embed.loadNote('//www.documentcloud.org/documents/1277622-sb1-2013-lineitems/annotations/174667.js');</script>
+		<br>
+	</div>
+
+
+<!-- DocumentCloud slider
+	Put below jquery
+ 	add one for each doc.
+ -->
+<script>
+	$(document).ready(function() {
+		$("#dct01").click(function() {
+			$("#dc01").slideToggle("medium");
+		});
+		$("#dct02").click(function() {
+			$("#dc02").slideToggle("medium");
+		});
+	});
+</script>
+
+
